@@ -2,6 +2,7 @@ import React from "react";
 import MessageList from "./MessageList";
 import MessageBar from "./MessageBar";
 
+
 let chat_messages = [];
 
 class Chat extends React.Component {

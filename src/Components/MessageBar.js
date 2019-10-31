@@ -1,5 +1,6 @@
 import React from 'react';
-import MessageItem from "./MessageItem";
+import {SEND_MESSAGE} from '../Action/SendMessage'
+
 
 class MessageBar extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class MessageBar extends React.Component {
 
     handleClick(e) {
         e.preventDefault();
-        this.props.sendMessage(this.state.value);
+        this.props.dispatch(SEND_MESSAGE(this.state.value));
 
         this.setState({
             value: '',
