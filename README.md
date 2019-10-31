@@ -1,3 +1,6 @@
+## Code non fonctionnel dans la branche code test
+## Redux Incomplet
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
